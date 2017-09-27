@@ -1,7 +1,10 @@
 package com.d3.dev.apps.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+
+@Document(collection = "products")
 public class Products {
 	
 	@Id public String id;

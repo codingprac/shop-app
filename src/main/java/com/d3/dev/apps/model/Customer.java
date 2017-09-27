@@ -3,6 +3,7 @@ package com.d3.dev.apps.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Component;
 
+@Component
 public class Customer {
 	
 	
@@ -26,6 +27,4 @@ public class Customer {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-}
-	
 }
